@@ -1,0 +1,266 @@
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+}
+
+.page-transition{
+    position: absolute;
+    top: 0;
+    background-color: var(--primary);
+    width: 100%;
+    height: 0%;
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│               Navbar              │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+.navbar {
+    background-color: var(--base-200) !important;
+    padding: 30px 10px !important;
+    margin: 0 .9rem !important;
+    margin-top: .9rem !important;
+    z-index: 3 !important;
+    border-radius: 8px !important;
+    box-shadow: 2px 2px 18px 3px rgba(0, 0, 0, .75) !important;
+    -webkit-box-shadow: 2px 2px 18px 3px rgba(0, 0, 0, .75) !important;
+    -moz-box-shadow: 2px 2px 18px 3px rgba(0, 0, 0, .75) !important;
+}
+
+.navbar-brand {
+    font-family: 'Cubano' !important;
+}
+
+#navbarNav > ul > li:nth-child(n) > button,
+#navbarNav>ul>li:nth-child(n)>a {
+    background: var(--base-200);
+    border: none;
+    margin: 0 .5rem 0 .5rem !important;
+    text-transform: capitalize !important;
+}
+
+#navbarNav > ul > li:nth-child(n) > button:hover,
+#navbarNav>ul>li:nth-child(n)>a:hover {
+    margin: 0 .5rem 0 .5rem !important;
+    text-transform: capitalize !important;
+    color: var(--primary) !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler,
+.navbar-toggler-icon:focus {
+    box-shadow: none!important;
+    outline: none!important;
+    border: 0!important;
+    transition: .3s !important;
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│               Banner              │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+.banner {
+    color: #fff !important;
+    background-image: url('https://cdn.abyditya.space/r/wp8963394.png') !important;
+    background-position: center center !important;
+    margin: 0 .9rem !important;
+    background-size: cover !important;
+    position: relative !important;
+    border-radius: 8px !important;
+    min-height: 400px !important;
+    padding-top: 60px !important;
+    height: auto !important;
+}
+
+.banner:before {
+    background-color: rgba(29, 29, 29, .7) !important;
+    backdrop-filter: blur(4px) !important;
+    position: absolute !important;
+    border-radius: 8px !important;
+    height: 100% !important;
+    content: "" !important;
+    width: 100% !important;
+    z-index: 1 !important;
+    left: 0 !important;
+    top: 0 !important;
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│             typography            │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+.title {
+    color: var(--primary);
+    font-size: 20px;
+}
+
+.subtitle {
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.description {
+    color: #5b656a;
+    font-weight: 400;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│                Info               │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+.info {
+    background-color: var(--base-200);
+}
+
+.info .subtitle {
+    font-family: 'Cubano';
+}
+
+.info .desc {
+    color: white;
+    opacity: 50%;
+}
+
+.countBan {
+    color: #fff !important;
+    background-image: url('https://cdn.abyditya.space/r/wp8963394.png') !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    position: relative !important;
+    min-height: 230px !important;
+    padding-top: 20px !important;
+    height: auto !important;
+    margin-top: 4rem !important;
+}
+
+.countBan:before {
+    background-color: rgba(29, 29, 29, .7) !important;
+    backdrop-filter: blur(4px) !important;
+    position: absolute !important;
+    height: 100% !important;
+    content: "" !important;
+    width: 100% !important;
+    z-index: 1 !important;
+    left: 0 !important;
+    top: 0 !important;
+}
+
+.countBan .counter {
+    font-family: 'cubano', sans-serif !important;
+    text-transform: uppercase !important;
+    margin: 0 0 12px !important;
+    position: relative !important;
+    padding-top: 2.5rem !important;
+    font-weight: 400 !important;
+    line-height: 1.2 !important;
+    font-size: 30px !important;
+    z-index: 2 !important;
+    color: #b6b6b6;
+}
+
+#timer {
+    font-family: 'cubano', sans-serif !important;
+    font-size: 50px !important;
+    color: #fff;
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│               Regist              │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+.regis .desc {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.regis .desc h1.title {
+    font-family: 'Cubano', sans-serif;
+    font-size: 60px;
+}
+
+.regis .card .card-title {
+    font-family: 'Cubano';
+    font-size: 30px;
+    color: var(--primary);
+}
+
+.regis .card .card-text {
+    opacity: 70%;
+}
+
+.regis .card span {
+    padding: 1rem;
+}
+
+.regis .card {
+    background-color: var(--base-200);
+    color: white;
+}
+
+.regis .card button {
+    background-color: #759224;
+    border: 0;
+    color: #000;
+}
+
+.regis .card:hover {
+    transform: translateY(-10px);
+}
+
+/*
+╭───────────────────────────────────╮
+│                                   │
+│               Footer              │
+│                                   │
+╰───────────────────────────────────╯
+*/
+
+footer {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+footer p.title {
+    color: #b2becd;
+}
+
+footer p.title a {
+    color: #759224;
+    text-decoration: none;
+}
+
+footer p.title a:hover {
+    color: #759224;
+    opacity: 80%;
+    text-decoration: none;
+}
