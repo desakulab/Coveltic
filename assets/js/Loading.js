@@ -26,7 +26,7 @@ pageTransition = () => {
 mainAnimation = () => {
     var timeline = gsap.timeline();
     
-    timeline.from(".container h1, .menu-items li, .logo", {
+    timeline.from(".menu-items li, .logo", {
         duration: 1,
         y: 30,
         opacity: 0,
