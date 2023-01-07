@@ -119,6 +119,15 @@
     line-height: 4rem;
 }
 
+.subtitle span {
+    color: var(--primary);
+}
+
+body > main > section:nth-child(2) > div > div > div:nth-child(1) > h1 > span:nth-child(4) {
+    font-family: 'Cubano';
+    font-weight: 300;
+}
+
 .description {
     color: #5b656a;
     font-weight: 400;
